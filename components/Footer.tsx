@@ -83,9 +83,10 @@ import {
               </div>
             </div>
 
-              <p className="text-sm hover:underline cursor-pointer">
+              <p className="flex item-center gap-2 text-sm hover:underline cursor-pointer">
                 Designed and Developed by 
-              </p>
+              
+              <Link href="https://www.instagram.com/webcrafters.dev/" target="_blank"><Image alt="WC LOGO" src="/WC LOGO.png" className="w-32 h-fit object-contain" width={1920} height={1080}/></Link></p>
               
             
           
