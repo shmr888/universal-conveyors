@@ -1,4 +1,5 @@
 import RequestForm from "@/components/RequestForm"
+import { Suspense } from "react"
 
 const RequestPage = () => {
   
@@ -14,7 +15,8 @@ const RequestPage = () => {
                     Fill out the form below to request a quote for our high-quality conveyor systems.
                   </p>
                 </div>
-                <RequestForm />
+                
+                <Suspense fallback={<div>Loading...</div>}> <RequestForm /> </Suspense>
               </div>
             </div>
           </div>
