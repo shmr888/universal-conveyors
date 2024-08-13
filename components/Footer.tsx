@@ -51,7 +51,7 @@ import {
         
               </div>
               <div className="lg:gap-1 lg:text-sm flex flex-col">
-              <img
+              <Image
                 src="/gst info.png"
                 width="200"
                 height="100"
