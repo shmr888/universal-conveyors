@@ -1,20 +1,80 @@
-
+"use client"
 import Link from "next/link"
 import Image from "next/image"
 import {LocateIcon} from "lucide-react"
+import * as React from "react"
+import Autoplay from "embla-carousel-autoplay"
+ 
+import { Card, CardContent } from "@/components/ui/card"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
+
 const Hero = () => {
+  const plugin = React.useRef(
+    Autoplay({ delay: 2000, stopOnInteraction: true })
+  )
   return (
     <section id="hero" className="bg-primary py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             
-            <div className="flex flex-col md:flex-row gap-4">
-            <Image
+            <div className="flex flex-col md:flex-row-reverse gap-4">
+
+            {/* <Image
                 src="/universaloffice.png"
                 width={1920}
                 height={1080}
                 alt="Conveyor"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
+              /> */}
+                <Carousel
+        plugins={[plugin.current]}
+        className="w-full "
+        onMouseEnter={plugin.current.stop}
+        onMouseLeave={plugin.current.reset}
+      >
+        <CarouselContent>
+          
+            <CarouselItem ><Image
+                src="/coveyorcarousel.jpeg"
+                width={1920}
+                height={1080}
+                alt="Conveyor"
+                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
               />
+            </CarouselItem>
+            <CarouselItem ><Image
+                src="/rivercarousel.jpeg"
+                width={1920}
+                height={1080}
+                alt="Conveyor"
+                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
+              />
+            </CarouselItem>
+            <CarouselItem ><Image
+                src="/Rollerconveyorcarousel.jpeg"
+                width={1920}
+                height={1080}
+                alt="Conveyor"
+                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
+              />
+            </CarouselItem>
+            <CarouselItem ><Image
+                src="/rubberconveryorcaroursel.jpeg"
+                width={1920}
+                height={1080}
+                alt="Conveyor"
+                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
+              />
+            </CarouselItem>
+          
+        </CarouselContent>
+        
+      </Carousel>
               <div className="flex flex-col justify-center space-y-4 w-full">
                 
                 <div className="space-y-2">
