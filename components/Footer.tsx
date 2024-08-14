@@ -46,6 +46,11 @@ import {
                 >
                   Products
                 </Link>
+                <Link 
+                href = "mailto:msudharsan.711@gmail.com"
+                className="hover:underline cursor-pointer">
+                  Contact Us
+                </Link>
 
                 
         
