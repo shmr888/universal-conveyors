@@ -83,11 +83,11 @@ import {
               </div>
             </div>
 
-              <p className="flex item-center gap-2 text-sm hover:underline cursor-pointer">
+              <p className="flex item-center gap-2 text-xs md:text-sm hover:underline cursor-pointer">
                 Designed and Developed by 
               
-              <Link href="https://www.instagram.com/webcrafters.dev/" target="_blank"><Image alt="WC LOGO" src="/WC LOGO.png" className="w-32 h-fit object-contain" width={1920} height={1080}/></Link></p>
-              
+              <Link href="https://www.instagram.com/webcrafters.dev/" target="_blank"><Image alt="WC LOGO" src="/WC LOGO.png" className="w-24 md:w-32 h-fit object-contain" width={1920} height={1080}/></Link></p>
+            
             
           
             
