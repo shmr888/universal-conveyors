@@ -56,7 +56,7 @@ const RequestForm = () => {
 
     const onSubmit = async (values: z.infer<typeof formSchema>) => {
 
-        let response = await fetch("http://localhost:3000/api/sendMail", {
+        let response = await fetch("https://universal-conveyors.vercel.app/api/sendMail", {
             method: "POST",
             body: JSON.stringify({
                 ...values,
