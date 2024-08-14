@@ -31,7 +31,7 @@ const navLinks = [
 
 const Header = () => {
   return (
-    <header className="bg-primary sticky top-0 text-primary-foreground shadow-md border-b border-white/20 px-4 lg:px-6 py-4 flex items-center justify-between">
+    <header className="bg-primary sticky top-0 z-50 text-primary-foreground shadow-md border-b border-white/20 px-4 lg:px-6 py-4 flex items-center justify-between">
         <Link href="/#" className="flex items-center gap-2 md:gap-4" prefetch={false}>
          <Image className='w-20 h-20 md:w-24 md:h-24 object-contain' src="/universal conveyors.png" width={1920} height={1080} alt="" />
          <div className='flex flex-col gap-0 '>
