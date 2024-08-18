@@ -3,6 +3,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter }
 import Link from "next/link"
 
 import {products} from "@/lib/products"
+import Image from "next/image"
 
 
 
@@ -41,13 +42,14 @@ id: string
 const ProductCard = ({title, description, image, id}: ProductsCardProps) => {
     return <Card>
         <CardContent>
-      <img
+      <Image
         src={image}
         width="400"
         height="225"
         alt="Belt Conveyor"
         className="aspect-video object-fill rounded-md mt-5"
       />
+      
     </CardContent>
     <CardHeader>
       <CardTitle>{title}</CardTitle>

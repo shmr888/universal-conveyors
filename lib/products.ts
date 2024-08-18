@@ -59,6 +59,12 @@ export const products = [
         description: "Ms Idler,Pulley,Frame with Idler,Impact Idler",
         image:"/spares.png"
     },
+    {
+        id: "product-11",
+        title: "Chip Conveyors",
+        description: "",
+        image:"https://5.imimg.com/data5/SELLER/Default/2024/7/431999889/ZV/PJ/KV/33936635/scraper-type-chip-conveyor-500x500.jpg"
+    }
     
     
     

@@ -37,7 +37,7 @@ const Header = () => {
          <div className='flex flex-col gap-0 '>
 
          <p className='font-bold  md:text-xl uppercase leading-5'>Universal Conveyors</p>
-         <p className ="font-medium text-xs">AN ISO 9001 : 2000 CERTIFIED COMPANY</p>
+         <p className ="font-medium text-xs">AN ISO 9001 : 2015 CERTIFIED COMPANY</p>
          
          </div>
         </Link>

@@ -20,7 +20,7 @@ import {
               <div className="text-center md:text-left text-sm gap-1 ">
               <div className='flex flex-col mb-2 mt-2'>
               <p className='font-bold text-xl uppercase'>Universal Conveyors</p>
-              <p className ="font-medium text-xs">AN ISO 9001 : 2000 CERTIFIED COMPANY</p>
+              <p className ="font-medium text-xs">AN ISO 9001 : 2015 CERTIFIED COMPANY</p>
               </div>
                 <p>No. 24 to 27 Rajeshwari Indl. Layout, Sipcot – I,
                 Hosur – 635 126, Krishnagiri District, Tamilnadu, India.</p>
@@ -55,14 +55,14 @@ import {
                 
         
               </div>
-              <div className="lg:gap-1 lg:text-sm flex flex-col">
+              <div className="lg:gap-1 lg:text-sm flex flex-col items-center">
               <Image
                 src="/gst info.png"
                 width="200"
                 height="100"
                 
                 alt="GST INFO"
-                className="aspect-video object-contain rounded-md items-center ml-6"
+                className=" object-contain ml-6"
               />
               </div>
             </div>
