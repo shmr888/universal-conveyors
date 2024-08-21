@@ -38,6 +38,14 @@ const Hero = () => {
         onMouseLeave={plugin.current.reset}
       >
         <CarouselContent>
+        <CarouselItem ><Image
+                src="/Carousel_4.jpeg"
+                width={1920}
+                height={1080}
+                alt="Conveyor"
+                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
+              />
+              </CarouselItem>
           
             <CarouselItem ><Image
                 src="/coveyorcarousel.jpeg"
@@ -72,14 +80,8 @@ const Hero = () => {
               />
             </CarouselItem>
 
-            <CarouselItem ><Image
-                src="/Carousel_4.jpeg"
-                width={1920}
-                height={1080}
-                alt="Conveyor"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-              />
-            </CarouselItem>
+            
+            
           
         </CarouselContent>
         
