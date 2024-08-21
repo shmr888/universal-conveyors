@@ -6,8 +6,8 @@ const About = () => {
     <section id="about" className="  bg-no-repeat bg-cover bg-opacity-25  py-12 md:py-24 lg:py-32">
     <div className="container px-4 md:px-6">
       <div className="flex flex-col md:flex-row-reverse gap-20">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6">
-          <h1 className="col-span-2 md:col-span-3 text-2xl font-bold text-center">Our Customers</h1>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
+          <h1 className="col-span-2 md:col-span-4 text-2xl font-bold text-center">Our Customers</h1>
           {images.map((image,index)=>{
             return <Image key={index} src={image} className="w-[20rem] h-48 object-contain" alt="Embedded Customers" width={1920} height={1080} />
           })}
