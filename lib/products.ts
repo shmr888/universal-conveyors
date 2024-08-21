@@ -62,8 +62,14 @@ export const products = [
     {
         id: "product-11",
         title: "Chip Conveyors",
-        description: "",
+        description: "Chip conveyors are machines used to convey material or transport things from one end to another. They are becoming more popular day by day.",
         image:"https://5.imimg.com/data5/SELLER/Default/2024/7/431999889/ZV/PJ/KV/33936635/scraper-type-chip-conveyor-500x500.jpg"
+    },
+    {
+        id: "product-12",
+        title: "Turntkey Conveyors",
+        description: "Turnkey systems doesn't just refer to conveyors. It also incorporates the controls and programming, and the support our team gives to anyone who purchases a system from us. We provide design, engineering, the conveyors and controls, plus installation, commissioning, and start-up of the new system in the facility.",
+        image:"/turntkey_conveyor.jpeg"
     }
     
     

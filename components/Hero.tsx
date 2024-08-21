@@ -19,7 +19,7 @@ const Hero = () => {
     Autoplay({ delay: 2000, stopOnInteraction: true })
   )
   return (
-    <section id="hero" className="bg-primary py-12 md:py-24 lg:py-32">
+    <section id="hero" className="bg-gradient-to-r from-primary to-primary py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             
             <div className="flex flex-col md:flex-row-reverse gap-4">

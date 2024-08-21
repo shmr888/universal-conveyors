@@ -1,9 +1,9 @@
 import Image from "next/image"
 
 const About = () => {
-  const images = ["/Customers/Tvs.png","https://www.ashokleyland.com/pwa/img/FE/Ashok-Leyland-Brand-Logo.svg","https://media.licdn.com/dms/image/v2/C510BAQE17UCJUEaHcQ/company-logo_200_200/company-logo_200_200/0/1631413000611/snj_group_logo?e=2147483647&v=beta&t=bc0Y36cxAa3zZKbz02KYxxHXcvyhA-4tTV3gx1yAfCU","https://bannari.bitsathy.ac.in/assets/images/partners/01.png","https://trademaklogos.s3.ap-south-1.amazonaws.com/5524193.jpeg","/Customers/exide.png","/Customers/kabaras.jfif","/Customers/parrys.png","/Customers/river.png"]
+  const images = ["/Customers/Tvs.png","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeYcVZanJDctwGKXaHMLi6sbU12FR4kRu7QA&s","https://www.ashokleyland.com/pwa/img/FE/Ashok-Leyland-Brand-Logo.svg","https://bannari.bitsathy.ac.in/assets/images/partners/01.png","https://media.licdn.com/dms/image/v2/C510BAQE17UCJUEaHcQ/company-logo_200_200/company-logo_200_200/0/1631413000611/snj_group_logo?e=2147483647&v=beta&t=bc0Y36cxAa3zZKbz02KYxxHXcvyhA-4tTV3gx1yAfCU","https://www.hap.in/images/hap-logo.png","/Customers/exide.png","/Customers/kabaras.jfif","/Customers/parrys.png","/Customers/river.png"]
   return (
-    <section id="about" className="bg-background py-12 md:py-24 lg:py-32">
+    <section id="about" className="  bg-no-repeat bg-cover bg-opacity-25  py-12 md:py-24 lg:py-32">
     <div className="container px-4 md:px-6">
       <div className="flex flex-col md:flex-row-reverse gap-20">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6">
