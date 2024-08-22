@@ -47,14 +47,7 @@ const Hero = () => {
               />
               </CarouselItem>
           
-            <CarouselItem ><Image
-                src="/coveyorcarousel.jpeg"
-                width={1920}
-                height={1080}
-                alt="Conveyor"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-              />
-            </CarouselItem>
+
             <CarouselItem ><Image
                 src="/rivercarousel.jpeg"
                 width={1920}
