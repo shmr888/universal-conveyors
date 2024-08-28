@@ -20,11 +20,10 @@ const About = () => {
           className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
         /> */}
         <div className="flex flex-col justify-center space-y-4">
-          <div className="space-y-2 ">
-            <h2 className="text-3xl font-bold tracking-tighter text-foreground sm:text-4xl md:text-5xl">
-              About <br/> Universal Conveyors
+          <div className="space-y-4 items-center justify-normal ">
+            <h2 className="text-3xl font-bold tracking-tighter flex justify-center text-foreground sm:text-4xl md:text-5xl">About Us<br/>
             </h2>
-            <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed flex text-center leading-4 text-balance lg:text-base/relaxed xl:text-xl/relaxed">
               Universal Conveyors is a leading manufacturer of high-quality conveyor systems for a wide range of
               industries. Our company has been in operation for over 25 years, and we pride ourselves on our
               commitment to innovation, quality, and customer satisfaction.

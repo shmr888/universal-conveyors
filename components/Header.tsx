@@ -17,7 +17,7 @@ const navLinks = [
     name: "Home",
     link: "/#"
   },{
-    name: "About",
+    name: "About Us",
     link: "/#about"
   },{
     name: "Products",
